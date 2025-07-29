@@ -108,13 +108,13 @@ def refletor(letra):
     return resultado
 
 def rotor_invertido_3(letra, posicao):
-    rotor_completo = {'A': 'E', 'B': 'K', 'C': 'M', 'D': 'F',
-                      'E': 'L', 'F': 'G', 'G': 'D', 'H': 'Q',
-                      'I': 'V', 'J': 'Z', 'K': 'N', 'L': 'T',
-                      'M': 'O', 'N': 'W', 'O': 'Y', 'P': 'H',
-                      'Q': 'X', 'R': 'U', 'S': 'S', 'T': 'P',
-                      'U': 'A', 'V': 'I', 'W': 'B', 'X': 'R',
-                      'Y': 'C', 'Z': 'J'}
+    rotor_completo = {'A': 'B', 'B': 'D', 'C': 'F', 'D': 'H',
+                      'E': 'J', 'F': 'L', 'G': 'C', 'H': 'P',
+                      'I': 'R', 'J': 'T', 'K': 'X', 'L': 'V',
+                      'M': 'Z', 'N': 'N', 'O': 'Y', 'P': 'E',
+                      'Q': 'I', 'R': 'W', 'S': 'G', 'T': 'A',
+                      'U': 'K', 'V': 'M', 'W': 'U', 'X': 'S',
+                      'Y': 'Q', 'Z': 'O'}
 
     rotor_invertido = {v: k for k, v in rotor_completo.items()}
 
